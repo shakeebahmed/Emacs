@@ -110,6 +110,9 @@
 ;;(global-set-key "\C-cep" 'evernote-post-region)
 ;;(global-set-key "\C-ceb" 'evernote-browser)
 
+;;Refresh Buffers
+(add-to-list 'load-path "~/.emacs.d/vendor/revbufs.el")
+(require 'revbufs)
 
 ;; Fullscreen
 (defun fullscreen ()
